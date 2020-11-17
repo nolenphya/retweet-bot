@@ -12,7 +12,14 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the fol
 pip install textblob
 pip install tweepy
 ```
-Download the retweet-bot folder. Set it as your working directory in whatever environment you're using. Start retweeting by typing in your terminal:
+
+Now, if you haven't at this point, you will need to get your developer account & API key. There are much better guides on that which already exist. Here's a start: https://developer.twitter.com/en/docs/authentication/oauth-1-0a 
+
+Download the retweet-bot folder. Set it as your working directory in whatever environment you're using. 
+
+You 
+
+Start retweeting by typing in your terminal:
 
 ```bash
 Python retweet.py
