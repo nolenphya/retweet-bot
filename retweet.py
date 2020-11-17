@@ -1,15 +1,17 @@
 # Retweet bot for Twitter, using Python and Tweepy. 
 
 # This bot will automatically grab tweets, perform sentiment analysis,
-# and then retweet depending on the given parameters below. 
+# and then retweet depending on the given sentiment paramters. 
 
 # I eventually want to make this more complex so that the user 
-# will be able to type in their keywords, 
+# will be able to type in their keywords and retweet parameters. 
 
 # Search query via hashtag or keyword.
 # Author: Nolen Phya
 # Date: November, 17
-## NOTES: I adapted some of this code from Tyler L. Jones
+# NOTES: I adapted some of this code from Tyler L. Jones
+
+# Make sure you download all these packages first!
 
 from textblob import TextBlob
 import tweepy
