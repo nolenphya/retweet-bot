@@ -12,7 +12,11 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the fol
 pip install textblob
 pip install tweepy
 ```
+Download the retweet-bot folder. Set it as your working directory in whatever environment you're using. Start retweeting by typing:
 
+```bash
+Python retweet.py
+```
 ## Usage
 
 ```python
