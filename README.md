@@ -37,5 +37,9 @@ Python retweet.py ## Will find as many tweets as you specify in the code and the
 ## Contributing
 For changes, please open an issue first to discuss what you would like to change.
 
+## Updates
+
+This is a start of a larger project. I will continue to develop this bot with the eventual goal of making everything more user friendly to the point anyone could pick it up and start using it provided they have a Twitter developer account set up. Email me @nolen.scruggs@gmail.com for collabs!
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/) Nolen Phya
