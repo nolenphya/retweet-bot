@@ -21,12 +21,12 @@ Copy paste your API keys into the placeholders in the retweet.py file using what
 
 With that set up you should be good to start spamming that retweet button!
 
-Start retweeting by typing in your terminal:
-
 ```bash
 Python retweet.py
 ```
 ## Usage
+
+Once you have fully installed everything all you need to do now is go to your terminal and type:
 
 ```python
 
