@@ -15,9 +15,11 @@ pip install tweepy
 
 Now, if you haven't at this point, you will need to get your developer account & API key. There are much better guides on that which already exist. Here's a start: https://developer.twitter.com/en/docs/authentication/oauth-1-0a 
 
-Download the retweet-bot folder. Set it as your working directory in whatever environment you're using. 
+Once you have set up the account and figured out your keys, download the retweet-bot folder. Set it as your working directory in whatever environment you're using. 
 
-You 
+Copy paste your API keys into the placeholders in the retweet.py file using whatever code editor you're using. 
+
+With that set up you should be good to start spamming that retweet button!
 
 Start retweeting by typing in your terminal:
 
