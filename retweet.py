@@ -32,10 +32,6 @@ auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
 
-# Where q='#example', change #example to whatever hashtag or keyword you want to search.
-# Where items(5), change 5 to the amount of retweets you want to tweet.
-# Make sure you read Twitter's rules on automation - don't spam!
-
 print('Hello! I am retweet bot. I will retweet tweets based on the search term you define for me.')
 print('SEARCH TERM:')
 keyword_input = input()
