@@ -1,3 +1,41 @@
+# Retweet bot for Twitter, using Python and Tweepy. 
+
+# This bot will automatically grab tweets, perform sentiment analysis,
+# and then retweet depending on the given parameters below. 
+
+# I eventually want to make this more complex so that the user 
+# will be able to type in whehter they want to retweet based on positive or negative sentiment.
+
+# Search query via hashtag or keyword.
+# Author: Nolen Phya
+# Date: November, 18
+## NOTES: I adapted some of this code from Tyler L. Jones
+
+from textblob import TextBlob
+import tweepy
+import seaborn as sns
+import pandas
+from time import sleep
+
+
+# Import in your Twitter application keys, tokens, and secrets.
+# Make sure your keys.py file lives in the same directory as this .py file.
+
+from keys import *
+
+CONSUMER_KEY = 'consumer key'
+CONSUMER_SECRET = 'consumer secret'
+ACCESS_KEY = 'access key'
+ACCESS_SECRET = 'access secret'
+
+auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
+api = tweepy.API(auth)
+
+# Where q='#example', change #example to whatever hashtag or keyword you want to search.
+# Where items(5), change 5 to the amount of retweets you want to tweet.
+# Make sure you read Twitter's rules on automation - don't spam!
+
 print('Hello! I am retweet bot. I will retweet tweets based on the search term you define for me.')
 print('SEARCH TERM:')
 keyword_input = input()
